@@ -26,10 +26,3 @@ const AppRedirect = () => {
 };
 
 export default AppRedirect;
-
-// Optional: Unsupported Page
-export const Unsupported = () => (
-  <div className="h-screen flex items-center justify-center">
-    <h1 className="text-xl font-semibold">Unsupported Device. Please visit from your mobile device.</h1>
-  </div>
-);
